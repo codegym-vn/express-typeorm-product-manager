@@ -18,4 +18,7 @@ export class Product {
   @Column({ type: "varchar" })
   public author: string;
 
+  @Column({ type: "varchar" })
+  public avatar: string;
+
 }
